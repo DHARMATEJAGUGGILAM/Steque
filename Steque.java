@@ -41,7 +41,7 @@ public class Steque<Item> implements Iterable<Item> {
      * constructs a steque object.
      */
     public Steque() {
-        a=(Item[]) new Object[incapacity];
+        a= (Item[]) new Object[incapacity];
         n=0;
         first=0;
     }
@@ -102,7 +102,7 @@ public class Steque<Item> implements Iterable<Item> {
      * @return true if steque is empty, false otherwise.
      */
     public boolean isEmpty() {
-
+        return n==0;
     }
     
     /**
